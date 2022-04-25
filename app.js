@@ -35,7 +35,6 @@ function toggleAnimation(){
     clone.classList.add('copy');
     main.appendChild(clone);
 
-    document.body.classList.add('stop-scrolling');
 
     clone.addEventListener('animationend', () => {
         bigWrapper.remove();
